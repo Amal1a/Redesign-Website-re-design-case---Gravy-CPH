@@ -11,7 +11,38 @@
   </head>
   <body>
     <header>
-      kontakt
+      <!-- de skal gøres mindre og være i højre side + hvis man trykker på telefon/email, skal man så henvises til "kontakt"-siden? -->
+      <div>
+        <div class="ikoner2">
+          <a href="http:///www.findsmiley.dk/543477"
+            ><img
+              class="smiley_ikon"
+              src="/pictures/smiley_ikon.svg"
+              alt="lys_smiley_ikon"
+          /></a>
+          <a href="http://"
+            ><img
+              class="lys_telefon_ikon"
+              src="/pictures/tlf_ikon.svg"
+              alt="lys_telefon_ikon"
+          /></a>
+          <a href="http://"
+            ><img
+              class="lys_email_ikon"
+              src="/pictures/email_ikon.svg"
+              alt="lys_email_ikon"
+          /></a>
+          <a href="http://www.instagram.com/gravycph/"
+            ><img
+              class="insta_ikon"
+              src="/pictures/insta_ikon.svg"
+              alt="lys_insta_ikon"
+          /></a>
+          <a href="https://www.facebook.com/gravycph"
+            ><img class="fb_ikon" src="/pictures/fb_ikon.svg" alt="lys_fb_ikon"
+          /></a>
+        </div>
+      </div>
       <nav>
         <ul>
           <a class="in_link" href="index.html">FORSIDE</a>
@@ -22,55 +53,133 @@
     </header>
     <main>
       <h1>Frokost</h1>
-      <nav>
-        <ul>
-          <a class="frokost" href="frokost.html">FROKOST</a>
-          <a class="ugens" href="ugensmenu.html">UGENSMENU</a>
-          <a class="cater" href="catering.html">CATERING</a>
-        </ul>
+      <nav class="menubar">
+        <div>
+          <ul>
+            <li><a class="frokost" href="frokost.html">FROKOST</a></li>
+            <li><a class="cater" href="catering.html">CATERING</a></li>
+            <li><a class="nytaars" href="nytaarsmenu.html">NYTÅRSMENU</a></li>
+          </ul>
+        </div>
       </nav>
-      <section id="menu_gravy">
-        billede her
-        <div id="mad1_meat">
-          <h1>kødretter</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            voluptatum, nisi commodi exercitationem, ad perferendis unde hic
-            nesciunt quis voluptatem sit tempora explicabo nostrum
-            necessitatibus! Distinctio consectetur possimus excepturi corrupti.
-          </p>
+      <section class="menu_gravy">
+        <div class="menupic-grid">
+          <img src="/img/sandwich.png" alt="Image 1" />
+          
         </div>
-      </section>
-      <section id="menu_gravy">
-        billede her
-        <div id="mad2_veg">
-          <h1>vegetar</h1>
+
+        <div id="mad_menu">
+          <h2>FROKOST</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            voluptatum, nisi commodi exercitationem, ad perferendis unde hic
-            nesciunt quis voluptatem sit tempora explicabo nostrum
-            necessitatibus! Distinctio consectetur possimus excepturi corrupti.
+            <strong><i> Take-away/I huset</i></strong>
           </p>
-        </div>
-      </section>
-      <section id="menu_gravy">
-        billede her
-        <div id="mad3_kid">
-          <h1>Børnemenu</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            voluptatum, nisi commodi exercitationem, ad perferendis unde hic
-            nesciunt quis voluptatem sit tempora explicabo nostrum
-            necessitatibus! Distinctio consectetur possimus excepturi corrupti.
-          </p>
+          <div class="mad_menu_txt">
+            <h3>Toscansk Sandwich</h3>
+            <p class="menu_text">Toscansk flæskesteg
+....................<strong>60 kr.</strong>
+            </p>
+            <h3>Steak Sandwich</h3>
+            <p class="menu_text">
+              Rosastegt okse steak....................<strong>65 kr.</strong>
+            </p>
+            <h3>Kylling Sandwich</h3>
+            <p class="menu_text">
+              Ovnstegt kyllingebryst.....................<strong
+                >60 kr.</strong
+              >
+            </p>
+            <h3>Veggie Sandwich</h3>
+            <p class="menu_text">
+              Vegetar....................<strong>60 kr.</strong>
+            </p>
+            <h3>Serrano Sandwich</h3>
+            <p class="menu_text">
+              Serrano skinke og mozzarella....................<strong>70 kr.</strong>
+            </p>
+            <h3>Club Sandwich</h3>
+            <p class="menu_text">
+              Club sandwich med kylling og bacon....................<strong>80 kr.</strong>
+            </p>
+            <h3>Sandwich</h3>
+            <p class="menu_text">
+              B.L.T....................<strong
+                >80 kr.</strong
+              >
+            </p>
+            <h3>Tun Sandwich</h3>
+            <p class="menu_text">
+              Tunsalat....................<strong>65 kr.</strong>
+            </p>
+
+            <h3>Salater</h3>
+            <p class="menu_text">
+              Stor græsk salat....................<strong>100 kr.</strong>
+            </p>
+            <p class="menu_text">
+              Thai salat med oksefilet eller kylling....................<strong>100 kr.</strong>
+            </p>
+            <p class="menu_text">
+              Panzanella - toscansk brødsalat med prosciutto og mozzarella....................<strong>100 kr.</strong>
+            </p>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-      <dir>footer</dir>
-      <dir>tekst</dir>
-      <div>tekst</div>
-      <a href="/code/index.html">tilbage</a>
+      <section class="grid-1-1-1-1">
+        <div>
+          <h3>Gravy</h3>
+        </div>
+        <div>
+          <h3>Åbningstider</h3>
+          <p>Mandag til fredag:</p>
+          <p>11:00-22:00</p>
+          <p>Lørdag og søndag:</p>
+          <p>Lukket</p>
+          <p>Køkken åbent fra</p>
+          <p>11:00-14:00 og 16:00-20:30</p>
+        </div>
+        <div>
+          <h3>Kontakt</h3>
+          <p>Øster Farigmagsgade 31, 2100 Købehavn Ø</p>
+          <p>35 38 27 77</p>
+          <p>chpgravy@gmail.com</p>
+          <p>CVR: 35757333</p>
+        </div>
+
+        <!-- læg resten af links ind -->
+        <div class="ikoner">
+          <a href="http:///www.findsmiley.dk/543477"
+            ><img
+              class="lys_smiley_ikon"
+              src="/img/Lys_smiley_ikon.svg"
+              alt="lys_smiley_ikon"
+          /></a>
+          <a href="/code/kontakt.html"
+            ><img
+              class="lys_telefon_ikon"
+              src="/img/lys_tlf_ikon.svg"
+              alt="lys_telefon_ikon"
+          /></a>
+          <a href="/code/kontakt.html"
+            ><img
+              class="lys_email_ikon"
+              src="/img/lys_email_ikon.svg"
+              alt="lys_email_ikon"
+          /></a>
+          <a href="http://www.instagram.com/gravycph/"
+            ><img
+              class="lys_insta_ikon"
+              src="/img/lys_insta_ikon.svg"
+              alt="lys_insta_ikon"
+          /></a>
+          <a href="https://www.facebook.com/gravycph"
+            ><img
+              class="lys_fb_ikon"
+              src="/img/lys_fb_ikon.svg"
+              alt="lys_fb_ikon"
+          /></a>
+      </section>
     </footer>
   </body>
 </html>

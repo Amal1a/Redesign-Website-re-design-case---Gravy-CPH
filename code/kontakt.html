@@ -11,56 +11,163 @@
   </head>
   <body>
     <header>
-      kontakt
+      <!-- de skal gøres mindre og være i højre side + hvis man trykker på telefon/email, skal man så henvises til "kontakt"-siden? -->
+      <div>
+        <div class="ikoner2">
+          <a href="http:///www.findsmiley.dk/543477"
+            ><img
+              class="smiley_ikon"
+              src="/pictures/smiley_ikon.svg"
+              alt="lys_smiley_ikon"
+          /></a>
+          <a href="http://"
+            ><img
+              class="lys_telefon_ikon"
+              src="/pictures/tlf_ikon.svg"
+              alt="lys_telefon_ikon"
+          /></a>
+          <a href="http://"
+            ><img
+              class="lys_email_ikon"
+              src="/pictures/email_ikon.svg"
+              alt="lys_email_ikon"
+          /></a>
+          <a href="http://www.instagram.com/gravycph/"
+            ><img
+              class="insta_ikon"
+              src="/pictures/insta_ikon.svg"
+              alt="lys_insta_ikon"
+          /></a>
+          <a href="https://www.facebook.com/gravycph"
+            ><img class="fb_ikon" src="/pictures/fb_ikon.svg" alt="lys_fb_ikon"
+          /></a>
+        </div>
+      </div>
       <nav>
+        <div id="gravylogo">
+          <div class="gravy_logo">
+            <img src="/pictures/gravylogo1.svg" alt="gravylogo" />
+          </div>
+        </div>
         <ul>
-          <a class="in_link" href="index.html">FORSIDE</a>
-          <a class="menu_link" href="menu.html">MENU</a>
-          <a class="kon_link" href="kontakt.html">KONTAKT</a>
+          <li><a href="index.html">FORSIDE</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="kontakt.html">KONTAKT</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section id="kort">
-        <div id="kort">
-          <h2>find os her</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non
-            delectus hic numquam culpa? Quaerat laudantium porro labore,
-            sapiente inventore quidem sit est illum cupiditate dolor, suscipit
-            ullam possimus reiciendis voluptates.
-          </p>
-        </div>
-      </section>
-      <section id="catering">
-        <h2>Catering/forspørgelser</h2>
 
-        <form action="#" method="get">
-          <div id="formfield">
-            <label for="fullname">Indsæt fuldenavn:</label>
-            <input type="firstname" name="firstname" id="" />
-          </div>
-          <div id="formfield">
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" type="email" />
-          </div>
-          <div id="formfield">
-            <label for="subject">Emne:</label>
-            <input type="text" name="subject" />
-          </div>
-          <div id="formfield">
-            <label for="message">Besked:</label>
-            <input type="text" name="message" />
-            <button type="submit">Send</button>
-          </div>
-        </form>
+    <main>
+      <p class="kontakt_tekst">
+        Skal du holde fest, konference eller en helt tredje ting, så kan Gravy
+        stå for maden. Vi har flere forskellige løsninger inden for mad og
+        drikke til alle typer arrangementer. Gravy tilbyder derudover varierede
+        frokostløsninger til virksomheder.
+      </p>
+      <section id="kort">
+        <div id="kort1"></div>
       </section>
-    </main>
-    <footer>
-      <dir>footer</dir>
-      <dir>tekst</dir>
-      <div>tekst</div>
+
+      <section class="grid-1-1">
+        <section id="find_os_her">
+          <h2>Find os her</h2>
+          <!-- <img src="/pictures/kort.png" alt="kort"> -->
+          <h3>Information:</h3>
+          <p>Øster Farimagsgade 31, 2100 København Ø</p>
+          <p>35 38 27 77</p>
+          <p>cphgravy@gmail.com</p>
+          <p>Room Service</p>
+          <h3>Åbningstider:</h3>
+          <p>Mandag: 11:00-22:00</p>
+          <p>Tirsdag: 11:00-22:00</p>
+          <p>Onsdag: 11:00-22:00</p>
+          <p>Torsdag: 11:00-22:00</p>
+          <p>Fredag: 11:00-22:00</p>
+        </section>
+
+        <section class id="catering">
+          <h2>Catering/forspørgelser</h2>
+
+          <form action="#" method="get">
+            <div id="formfield">
+              <label for="fullname">Navn:</label>
+              <input type="firstname" name="firstname" id="" />
+            </div>
+            <div id="formfield">
+              <label for="email">E-mail:</label>
+              <input type="email" name="email" type="email" />
+            </div>
+            <div id="formfield">
+              <label for="subject">Vedr.:</label>
+              <input type="text" name="subject" />
+            </div>
+            <div id="formfield">
+              <label for="message">Besked:</label>
+              <input type="text" name="message" />
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </section>
+      </section>
+
       <a href="/code/index.html">tilbage</a>
+    </main>
+
+    <footer>
+      <section class="grid-1-1-1-1">
+        <div>
+          <h3>Gravy</h3>
+        </div>
+        <div>
+          <h3>Åbningstider</h3>
+          <p>Mandag til fredag:</p>
+          <p>11:00-22:00</p>
+          <p>Lørdag og søndag:</p>
+          <p>Lukket</p>
+          <p>Køkken åbent fra</p>
+          <p>11:00-14:00 og 16:00-20:30</p>
+        </div>
+        <div>
+          <h3>Kontakt</h3>
+          <p>Øster Farigmagsgade 31, 2100 Købehavn Ø</p>
+          <p>35 38 27 77</p>
+          <p>chpgravy@gmail.com</p>
+          <p>CVR: 35757333</p>
+        </div>
+
+        <!-- læg resten af links ind -->
+        <div class="ikoner">
+          <a href="http:///www.findsmiley.dk/543477"
+            ><img
+              class="lys_smiley_ikon"
+              src="/img/Lys_smiley_ikon.svg"
+              alt="lys_smiley_ikon"
+          /></a>
+          <a href="/code/kontakt.html"
+            ><img
+              class="lys_telefon_ikon"
+              src="/img/lys_tlf_ikon.svg"
+              alt="lys_telefon_ikon"
+          /></a>
+          <a href="/code/kontakt.html"
+            ><img
+              class="lys_email_ikon"
+              src="/img/lys_email_ikon.svg"
+              alt="lys_email_ikon"
+          /></a>
+          <a href="http://www.instagram.com/gravycph/"
+            ><img
+              class="lys_insta_ikon"
+              src="/img/lys_insta_ikon.svg"
+              alt="lys_insta_ikon"
+          /></a>
+          <a href="https://www.facebook.com/gravycph"
+            ><img
+              class="lys_fb_ikon"
+              src="/img/lys_fb_ikon.svg"
+              alt="lys_fb_ikon"
+          /></a>
+      </section>
     </footer>
   </body>
 </html>

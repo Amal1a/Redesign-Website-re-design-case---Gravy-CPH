@@ -1,0 +1,118 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/pictures/baggrund.png);
+}
+
+/* ----------------informationen øverst på siden--------------------- */
+.kontakt_tekst {
+  text-align: center;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+/* ----------------hvide linje over nav bar--------------------- */
+.ikoner2 {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: right;
+}
+
+/* ----------------nav + logo i nav--------------------- */
+nav ul {
+  list-style: none;
+  padding: 40px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #d0e0c6;
+  text-decoration: none;
+}
+nav ul li a {
+  color: #575455;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-decoration: none;
+  font-family: "Bebas Neue";
+  font-family: "Open Sans", sans-serif;
+  font-style: bold;
+  line-height: 1.5rem;
+}
+
+.gravy_logo {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#gravylogo {
+  width: 15%;
+}
+
+/* ----------------find os her og catering boks--------------------- */
+.grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+#find_os_her {
+  background-color: #575455;
+  color: white;
+  font-size: bold;
+  padding: 0;
+  margin: 0;
+}
+
+#catering {
+  background-color: #575455;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+/* ----------------footer--------------------- */
+
+/* grid for footer */
+.grid-1-1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer {
+  list-style: none;
+  padding: 40px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #d0e0c6;
+  color: white;
+  text-decoration: none;
+}
+
+.ikoner {
+  width: 4%;
+  height: 4%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

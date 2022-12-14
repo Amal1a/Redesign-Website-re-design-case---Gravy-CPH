@@ -11,3 +11,35 @@ p {
   margin: 2rem;
   padding: 9rem;
 } */
+
+.ikoner2 {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: right;
+}
+
+body {
+  background-image: url(/pictures/baggrund.png);
+}
+
+footer {
+  list-style: none;
+  padding: 40px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #d0e0c6;
+  color: white;
+  text-decoration: none;
+}
+
+.ikoner {
+  width: 4%;
+  height: 4%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
